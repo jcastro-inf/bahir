@@ -34,6 +34,13 @@
   <name>Apache Bahir - Spark Streaming Twitter</name>
   <url>http://bahir.apache.org/</url>
 
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.spark</groupId>
@@ -53,9 +60,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.twitter4j</groupId>
-      <artifactId>twitter4j-stream</artifactId>
-      <version>4.0.4</version>
+      <groupId>com.github.jcastro-inf.twitter4j-patched</groupId>
+      <artifactId>twitter4j-patched-stream</artifactId>
+      <version>version-4.0.4-fixed-jcastro-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.scalacheck</groupId>
