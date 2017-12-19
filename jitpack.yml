@@ -1,0 +1,6 @@
+jdk:
+  - oraclejdk8
+install:
+   - echo "Running maven wrapper to compile with maven 3.3.9"
+   - ./mvnw clean install -DskipTests -Drat.skip=true
+
